@@ -20,6 +20,7 @@ import android.widget.ListView;
 public class MainActivity extends Activity {
 	ArrayList<NewsXML> newsitem = new ArrayList<NewsXML>();
 	String path = "http://192.168.1.3:8080/news.xml";
+	String a = "";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
